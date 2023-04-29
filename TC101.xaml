@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TC101" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="690,2309" sap2010:WorkflowViewState.IdRef="TC101_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TC101" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="690,2533" sap2010:WorkflowViewState.IdRef="TC101_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -40,6 +40,8 @@
       <x:String>UiPath.UIAutomationNext.Contracts</x:String>
       <x:String>System.Runtime.Serialization</x:String>
       <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.Excel.Activities</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -97,24 +99,42 @@
       <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
       <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC101" sap:VirtualizedContainerService.HintSize="608,2244" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC101" sap:VirtualizedContainerService.HintSize="608,2468" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Default="ramantest45" Name="Email" />
-      <Variable x:TypeArguments="x:String" Default="Testing@123" Name="Password" />
+      <Variable x:TypeArguments="x:String" Name="USERNAME" />
+      <Variable x:TypeArguments="x:String" Name="PASSWORD" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="546,103" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="... Given" sap:VirtualizedContainerService.HintSize="546,327" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
+      <ui:ReadCell Cell="A2" DisplayName="Read Cell Workbook" sap:VirtualizedContainerService.HintSize="388,88" sap2010:WorkflowViewState.IdRef="ReadCell_1" SheetName="TC101" WorkbookPath="C:\Users\Jaspal\Documents\UiPath\AdactinHotel\Testdata.xlsx">
+        <ui:ReadCell.Result>
+          <OutArgument x:TypeArguments="x:String">
+            <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">USERNAME</CSharpReference>
+          </OutArgument>
+        </ui:ReadCell.Result>
+      </ui:ReadCell>
+      <ui:ReadCell Cell="B2" DisplayName="Read Cell Workbook" sap:VirtualizedContainerService.HintSize="388,88" sap2010:WorkflowViewState.IdRef="ReadCell_2" SheetName="TC101" WorkbookPath="C:\Users\Jaspal\Documents\UiPath\AdactinHotel\Testdata.xlsx">
+        <ui:ReadCell.Result>
+          <OutArgument x:TypeArguments="x:String">
+            <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">PASSWORD</CSharpReference>
+          </OutArgument>
+        </ui:ReadCell.Result>
+      </ui:ReadCell>
     </Sequence>
     <Sequence DisplayName="... When" sap:VirtualizedContainerService.HintSize="546,1116" sap2010:WorkflowViewState.IdRef="Sequence_3">
       <sap:WorkflowViewStateService.ViewState>
@@ -129,6 +149,9 @@
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
             <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,788" sap2010:WorkflowViewState.IdRef="Sequence_7">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="variable1" />
+              </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -146,7 +169,7 @@
                 </uix:NTypeInto.Target>
                 <uix:NTypeInto.Text>
                   <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">Email</CSharpValue>
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">USERNAME.ToString()</CSharpValue>
                   </InArgument>
                 </uix:NTypeInto.Text>
               </uix:NTypeInto>
@@ -162,7 +185,7 @@
                 </uix:NTypeInto.Target>
                 <uix:NTypeInto.Text>
                   <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">Password</CSharpValue>
+                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">PASSWORD.ToString()</CSharpValue>
                   </InArgument>
                 </uix:NTypeInto.Text>
               </uix:NTypeInto>
@@ -204,7 +227,7 @@
                 <uix:NGetText.Target>
                   <uix:TargetAnchorable BrowserURL="http://adactinhotelapp.com/SearchHotel.php" CvType="AnyWordGroup" DesignTimeRectangle="16, 284, 257, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'chrome.exe Adactin.com'" Guid="a4767861-db5f-4adb-b293-1a3f9031ba8b" InformativeScreenshot="508e8857376451309bc745ea9ed69d6b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Search Hotel' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CvTextArgument="Hello ramantest45!" CvType="Text" DesignTimeRectangle="420, 283, 174, 18" ElementType="InputBox" FriendlyName="'Hello ramantest45!'" FullSelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl id='username_show' tableRow='1' tag='INPUT' /&gt;" FuzzySelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl id='username_show' type='text' tag='INPUT' class='input_show' aaname='' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALIAAAAWCAYAAABkB8aQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALOSURBVGhD7ZffTQMxDIdvtooJOkXVOdo16FNXQGIBntijY4Q4zp+fHefKFYFE6odP4i6J49jfpWL5/AzBcf47LrIzBS6yMwUusjMFLrIzBS6yMwVPIvJHOC77cHrrx97P+7C8XMO7em/ydg27Egf/tub+Y1JNDh/m2DZu4fSyhOPFGrNr/3pYwrIgrcZp/qDmLrKL3PEnIqf6RVFF7alPp/CK8wAXeZPINBduBGzoqshy3e58a+sUtOfufK3zudHc9LqviJHzv+TmEyln3FOd73KqcZgmCIt6FfuVvViW/L7WReWmPnyxpuYh18h60Ng+HA+q9lRTFRvhfdQ5My4yFacWj8VoNwg3ozZhKDKvk+Lp5jX6huSmw0cj52RhVZ4YI/0kl/VJYoyf5+fxIl49p5qfxmsuqgaRfi+4RcUzr9U3MsWneGkfFDeu3UXB+4+irdPvCk8kcimOQS6mbGAmCZsbMxC5awihGwyY8zXGh4JCCJkI2m8lJs7v95fxRR3MuDQ/57ZyTltkWsvzdR7pGWOl2E1cHm/PiN/IUMz+H43CusidVHXudpFlDiVnW2Rx41vCpRwg3gMiszwQo1Jyy78m+b2UtheZ8hb7DOpQwNpyLnYfXWQopikk8osipxgkQ3mPe20VGQQuazohxP53RFa5jqhnqHkrkSlHqNN3Yne5DProIkMx7xZ2ILK5buUnt59v5PcDkVN89WE9KvLaOWxYXs5NitxE11B8XNfi4TlTXoM+usiiqdxQLKYYH4jcr+vjIPdEKs+taXr8GyJDfBYgxntE5CyY+DBQbi26qIu6kRV2nhBrw0fkIuumpkaUmyLSjVkiE0U+ZiQx0YsUSU0r6ykux+M420Su8pV4UUKUpN9fxa81KBLJs2m59E2LefK+8T1+CDim6lDnJ2TPeMzu45OI7MyOi+xMgYvsTIGL7EyBi+xMgYvsTEAIX+vymL0RWS+xAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
