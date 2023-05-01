@@ -1,0 +1,16 @@
+﻿{
+  "Id": "0igJ0ibJokqxlDXSM0ypQg",
+  "Reference": "v5plHwawkk66e9rEw5XHcw/0igJ0ibJokqxlDXSM0ypQg",
+  "ParentRef": "v5plHwawkk66e9rEw5XHcw/kkCAU94NskKWyIbXQrnw4Q",
+  "Name": "Roomtype",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2023-05-01T15:48:08.4009255Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:50:42.5379132Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

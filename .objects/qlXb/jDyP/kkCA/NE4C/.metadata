@@ -1,0 +1,16 @@
+﻿{
+  "Id": "NE4CU66KqkSUfTWv0Fsmvw",
+  "Reference": "v5plHwawkk66e9rEw5XHcw/NE4CU66KqkSUfTWv0Fsmvw",
+  "ParentRef": "v5plHwawkk66e9rEw5XHcw/kkCAU94NskKWyIbXQrnw4Q",
+  "Name": "NumberofRoom",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2023-05-01T15:49:39.950298Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:50:29.550871Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

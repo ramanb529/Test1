@@ -1,0 +1,16 @@
+﻿{
+  "Id": "CD5ILIlknEec9T1Vc5ddzQ",
+  "Reference": "v5plHwawkk66e9rEw5XHcw/CD5ILIlknEec9T1Vc5ddzQ",
+  "ParentRef": "v5plHwawkk66e9rEw5XHcw/kkCAU94NskKWyIbXQrnw4Q",
+  "Name": "Checkoutdate",
+  "Type": "Element",
+  "TaxonomyType": "Text",
+  "Created": "2023-05-01T15:58:41.4386891Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T15:59:25.8505709Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

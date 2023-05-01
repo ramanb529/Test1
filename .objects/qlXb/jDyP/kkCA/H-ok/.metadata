@@ -1,0 +1,16 @@
+﻿{
+  "Id": "H-ok3RDiZkqjTTbgR-9z7g",
+  "Reference": "v5plHwawkk66e9rEw5XHcw/H-ok3RDiZkqjTTbgR-9z7g",
+  "ParentRef": "v5plHwawkk66e9rEw5XHcw/kkCAU94NskKWyIbXQrnw4Q",
+  "Name": "kidsperroom",
+  "Type": "Element",
+  "TaxonomyType": "Dropdown",
+  "Created": "2023-05-01T16:02:47.3565295Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-01T16:03:31.9961018Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
