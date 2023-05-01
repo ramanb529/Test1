@@ -68,6 +68,27 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TC103.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "bb7f0d15-ee03-4f9a-9c38-92f6fd6c0be6",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC104.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d49ea172-d966-44d1-afc1-ccbffe1112ce",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TCassets101.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "084434e3-65da-4206-8d5f-ce1101e35b20",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC105.xaml"
       }
     ],
     "modernBehavior": true

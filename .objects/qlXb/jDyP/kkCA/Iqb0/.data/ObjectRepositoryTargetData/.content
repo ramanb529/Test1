@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2dMuZ88AG0ugNDpDNX0lwA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://adactinhotelapp.com/SearchHotel.php" CvElementArea="163, 375, 252, 27" CvTextArea="167, 382, 96, 13" CvTextArgument="- Select Hotel -" CvType="InputBox" DesignTimeRectangle="164, 376, 250, 25" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'- Select Hotel -'" FullSelectorArgument="&lt;webctrl tableRow='8' tag='TABLE' /&gt;&lt;webctrl id='hotels' tableRow='3' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='hotels' type='' tag='SELECT' class='search_combobox' aaname='' /&gt;" Guid="9facd2d3-f43f-419a-bf91-99ad4be4ff28" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Search Hotel' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArgument="Hotels" CvType="Text" DesignTimeRectangle="8, 374, 154, 29" ElementType="Text" FriendlyName="'Hotels'" FullSelectorArgument="&lt;webctrl tableRow='8' tag='TABLE' /&gt;&lt;webctrl tableRow='3' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='Hotels ' check:innerText='Hotels' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAJ4AAAAhCAYAAAAoGRLbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG5SURBVHhe7dfBjYMwEEBRGkRbT0QnpBJSRw5UQQte24wTjzGJk8Ospf2W/mVhIBJPZhnScn5t20ZkkrADHtkm7IBHtgk74JFtwg54ZJuwAx7ZJuyAR7YJO+CRbcIOeGSbsAMe2SbsgEe2CTvg0btWN/8MbryulWOfJ+yA13vLZXDDz+zW8tht8g9xdPO9+Ptp3wIC3r8MePQnfQTvPrvRP9LwWGOX5XEsXic/pmYXN+XH1P0q8OK9s/OHyS2P81/nz98X8PquGZ6gm27pnB3ME9/ZzrWje86V9yzm4n00+PU6qvlXCTvg9d5xp8p7AggP/wA04ky7UR1enMt2xpjCVcypa36e/937Al7fte544bz6bnYCSDqHfTanX8utO13Kz+wLeH1nAq/c8VT1uW8BRnRhAa/vWuG9f9XWcVbnVGfwWo/rhB3weq8V3vuPi5NrpS9hteuF2fr/hgGqRnb8OHmVsANe7zXDCyVEqcMrNH895rP6talnix2tvIevdbcL+fP3BTyyTNgBj2wTdsAj24Qd8Mg2YQc8sk3YAY9sE3bAI9uEHfDINmEHPLJN2AGPbBN2wCPLNvcLeqDQf19T1xIAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, Image, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4dd962339a5bffa91815cc72b9b60d47.png" xmlns="">0UYW2I9PLvkKfyM5JO9SXSw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

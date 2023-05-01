@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-dSRHjt7PUCzc7gu7Xy8Eg" Reference="v5plHwawkk66e9rEw5XHcw/0bm7cEnrWEOTz_OZujeLRw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://adactinhotelapp.com/SearchHotel.php" CvElementArea="162, 346, 253, 27" CvTextArea="167, 353, 116, 14" CvTextArgument="- Select Location -" CvType="InputBox" DesignTimeRectangle="164, 347, 250, 25" DesignTimeScaleFactor="1" ElementType="DropDown" FriendlyName="'- Select Location -'" FullSelectorArgument="&lt;webctrl tableRow='8' tag='TABLE' /&gt;&lt;webctrl id='location' tableRow='2' tag='SELECT' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl id='location' type='' tag='SELECT' class='search_combobox' aaname='' /&gt;" Guid="0ca6601f-acdb-4dcb-8cf8-13d6290c4990" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Search Hotel' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArgument="Location*" CvType="Text" DesignTimeRectangle="88, 353, 67, 13" ElementType="Text" FriendlyName="'Location*'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d075b4fa7d8edf8bf0ce821761a0d7f6.png" xmlns="">0e0pFoQwtMUuTU5Ys-0da3w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
