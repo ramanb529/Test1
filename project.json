@@ -96,6 +96,13 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TC106.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "11bb6e57-c384-4689-9704-c19fc087a403",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TC107.xaml"
       }
     ],
     "modernBehavior": true
