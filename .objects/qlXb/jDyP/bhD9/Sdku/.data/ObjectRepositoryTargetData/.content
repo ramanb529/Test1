@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="OF-PupAPSkyS63TAmsWWDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://adactinhotelapp.com/BookingConfirm.php" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="979, 238, 48, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl aaname='Logout' tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl aaname='Logout' type='' tag='A' class='' check:innerText='Logout' /&gt;" Guid="5cf22fdc-ad25-4e19-b58b-aa9f49edcd01" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAVCAYAAAAJiM14AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVFhH7ZQxDoQgEEX3HN7Le9h4BotNPAC9hYW9hXsDK2/hKWZhBBxARRMkxFi8ZFeG4T+Z3c84AjyJVyh1XqHUebZQV34hzwf4kWdJ0rSQZy10G2uvENZkCgast2smqPS6wjz8sMdW2H6AQtXhZ7qfU0669pKQs46H00CLTFHPeo8d0NvDJ7RXI7kgtIStGvpsBpavAr+aufuNw/094glhU7cJSsgrx/3k+hF6+IkeyQkZ4yZIVujEuHhvKNTI7bwYQdg/Bfu7DEsDentgWCqtehzVrLhCvNCBBDBraHgJBiTrtfvGL/dorBvi4JiqGjIVhtAtiHAHtx6awEL8N2KEt34fEQgvpEdlIaaM4P6Ri8zDhAD+055vQOZK1jkAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Hotel Booking Confirmation' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a68a1a0bb0fecd9588d12002a9dc3d9f.png" xmlns="">0tXlSfeb040isn0n9WLZy7g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,15 @@
+﻿{
+  "Id": "bhD9_7_7K02rl-pb8X28rA",
+  "Reference": "v5plHwawkk66e9rEw5XHcw/bhD9_7_7K02rl-pb8X28rA",
+  "ParentRef": "v5plHwawkk66e9rEw5XHcw/jDyPZcZfSk-skDM8UNvNYQ",
+  "Name": "logoutscreen",
+  "Type": "Screen",
+  "Created": "2023-05-04T10:02:55.4215668Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-04T10:03:20.1440431Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

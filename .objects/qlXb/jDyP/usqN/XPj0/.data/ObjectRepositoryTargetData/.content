@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="vzyL3cUw0kCO3LYBSN8LPQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://adactinhotelapp.com/SelectHotel.php" DesignTimeRectangle="19, 447, 65, 28" DesignTimeScaleFactor="1" FriendlyName="'TD'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='' /&gt;" Guid="711194e0-87d8-41fb-ae27-05cebc03a484" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAAgCAYAAABEtLXAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD0SURBVGhD7ZdBCoMwEEV7avcewFOISy8i7r2F4AmmPKla8EttLJS0/8EQkswmj8xEb+M4BtH3/d/H4mGV4thilWJi9WApT1iKwFIEliKwFIGlCCxFYCmCj0gZhiHquo6yLKMoinlkznqOXJbStm1UVRVd18U0TfMaI3PW2c+NS1I4cNM0j5mG/dzEJEuhNLgJZyAvp1JKlkLPoETOQB75uZAshWa69JBXkEd+LiRL4ZV5h3fzv0myFN8UgXuKwK/PAf5OOYADcxMokaXHMDJnPTchcFkKUBr0DJqp/31+FEsRWIrAUgSWIrAUwU6KYwtL2cUYd9+9wfBTRQU7AAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Select Hotel' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CvTextArgument="Select" CvType="Text" DesignTimeRectangle="19, 402, 65, 44" FriendlyName="'Select'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableRow='1' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' tag='TD' class='' aaname='' check:innerText='Select' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAEUAAAAwCAYAAABHYrdbAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGWSURBVGhD7ZXtrYMwDEUzG+owiDnoGlR6Q1RiB2bpCi6l+TDJDTWV3qN6vZXOnxBT+8QO7na7CVlDKYAoZZqmryd4oBQFpQAoBUApAEoBUAqAUgCUAqAUAKUAKAVAKQBKAVAKgFIAh0gZz40452Y6GcDzo9kn5dL5YtY05xHvr/BrUq69ND6n7gKeGzFKGaU/BQm6kLC+r7j/IUX9GeqKoc2KAx2lk6xKeRH3ZJAu2+NcI/1PylGzt4sf7JbiTr2MaI9naLNkwOkhKZY4LS3JenTrLOVaiXkDm5SZkHRBO6R9MSmf5LKuRs/vLaSY4sr3FPy1lIXKRRuLqz731KSY4tLYVEfiECkZunuWJGJx+sRL6lK24j5Nypw0TESd8JKEMan6+GzFfdr4hOKzSzZ2ilpP3eMLVutB7NZFuxVXHMKyR120lm4yYJMyk5Je86qDNKEQJMUS96TySQ5jl73jHTlmKd8EpQAoBUApAEoBUAqAUgCUAqAUAKUAKAVAKQBKAVAKgFIAlAKgFEAhhSSiFP7EexC5A/M/vIk6DSyrAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8ca9921444dce234e7a31e698e72f9cb.png" xmlns="">0m1mhue-gVEG3Q1oqymSD7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

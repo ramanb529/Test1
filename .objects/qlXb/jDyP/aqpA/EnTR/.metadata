@@ -1,0 +1,16 @@
+﻿{
+  "Id": "EnTRnBmF4U-S_cVVbl3wkQ",
+  "Reference": "v5plHwawkk66e9rEw5XHcw/EnTRnBmF4U-S_cVVbl3wkQ",
+  "ParentRef": "v5plHwawkk66e9rEw5XHcw/aqpAhhVd90GUhXrj_1FmBA",
+  "Name": "Usernamelogin",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Created": "2023-05-03T17:28:32.8123558Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-03T17:29:28.6111737Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
