@@ -360,12 +360,7 @@
                   </uix:TargetAnchorable>
                 </uix:NSelectItem.Target>
               </uix:NSelectItem>
-              <uix:NSelectItem DisplayName="Select Item 'kidsperroom'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NSelectItem_6" Version="V3">
-                <uix:NSelectItem.Item>
-                  <InArgument x:TypeArguments="x:String">
-                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">KIDSPEROOM.ToString()</CSharpValue>
-                  </InArgument>
-                </uix:NSelectItem.Item>
+              <uix:NSelectItem DisplayName="Select Item 'kidsperroom'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NSelectItem_6" Item="0 - None" Version="V3">
                 <uix:NSelectItem.Items>
                   <scg:List x:TypeArguments="x:String" Capacity="5">
                     <x:String>0 - None</x:String>

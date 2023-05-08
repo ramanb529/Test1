@@ -110,6 +110,20 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Testcases\\TC108.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "54096628-038e-4268-b0d2-cbdf8f67b218",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\TC111.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "1af4a369-cff7-4a65-a9f9-357476400f18",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Testcases\\TC109.xaml"
       }
     ],
     "modernBehavior": true
