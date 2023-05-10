@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TC106" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="598,1417" sap2010:WorkflowViewState.IdRef="TC106_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TC106" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="690,1614" sap2010:WorkflowViewState.IdRef="TC106_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -35,6 +35,9 @@
       <x:String>System.Reflection</x:String>
       <x:String>UiPath.Testing.Activities</x:String>
       <x:String>UiPath.Testing</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -99,7 +102,7 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC106" sap:VirtualizedContainerService.HintSize="608,1352" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC106" sap:VirtualizedContainerService.HintSize="608,1549" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -124,19 +127,19 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="546,834" sap2010:WorkflowViewState.IdRef="Sequence_4">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="546,1031" sap2010:WorkflowViewState.IdRef="Sequence_4">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Use Browser Chrome: Adactin.com - Select Hotel" sap:VirtualizedContainerService.HintSize="484,723" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="75a40a3d-14cb-4223-bdf0-378a0bb93732" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" ContinueOnError="True" DisplayName="Use Browser Chrome: Adactin.com - Select Hotel" sap:VirtualizedContainerService.HintSize="484,920" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="75a40a3d-14cb-4223-bdf0-378a0bb93732" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,506" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,703" sap2010:WorkflowViewState.IdRef="Sequence_5">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="getroomsvalue" />
               </Sequence.Variables>
@@ -149,7 +152,7 @@
                 <uix:NGetText.Target>
                   <uix:TargetAnchorable BrowserURL="https://adactinhotelapp.com/SelectHotel.php" CvType="AnyWordGroup" DesignTimeRectangle="293, 447, 81, 28" DesignTimeScaleFactor="1" FriendlyName="'1 Rooms'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableCol='4' tableRow='2' tag='TD' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='TD' aaname='' /&gt;" Guid="d1be73a6-6f9a-467e-aeed-8cf7df28aabf" ImageBase64="" InformativeScreenshot="097150d5f3ec60d1a1a818aa2a9b8e62.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Select Hotel' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CvTextArgument="Rooms" CvType="Text" DesignTimeRectangle="298, 415, 53, 17" ElementType="Text" FriendlyName="'Rooms'" FullSelectorArgument="&lt;webctrl tableRow='2' tag='TABLE' /&gt;&lt;webctrl tableCol='4' tableRow='1' tag='STRONG' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='' tag='STRONG' aaname='Rooms' check:innerText='Rooms' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADkAAAAVCAYAAAD8dkbIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEbSURBVFhH7ZXREYMgDIaZzXMYjznoGriFd+7ATim2QBKIFduHVsrD/2AMyf9BROWcg9bVIVtRh2xFfwg5a1BKyRoNrDT3QtqF1HOMW9AXB62AdGCnAKk0WJK/3oaU/9QAZsH3Ubg+aq+Ojy8GhjyPxcoepQ8vciBvQ6ZYLEaM4NoVzBjyJvuMpR5olpkM9djG5DECIMUeXsjzMaRkXgQSGgpAEjg7yVCrLiZsoqDKiycbEdF8aUIyuinfjPOQ2JedeBLv9/ok6bdAx+GHIFk9Jlx3OK5Y2CuOxNfHlUMyCT0rLh5iisQLIBH87MVzFnL7vXHglEMmrwLSi44teYdNo+QdLscJjW/6DDLWJMouIQ7ZqDpkK+qQbcjBHfIIzeHqdFPCAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -173,6 +176,11 @@
                   </InArgument>
                 </uta:VerifyExpressionWithOperator.SecondExpression>
               </uta:VerifyExpressionWithOperator>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logoutbutton'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://adactinhotelapp.com/BookingConfirm.php" ContentHash="OF-PupAPSkyS63TAmsWWDw" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="979, 238, 48, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl aaname='Logout' tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl aaname='Logout' type='' tag='A' class='' check:innerText='Logout' /&gt;" Guid="5cf22fdc-ad25-4e19-b58b-aa9f49edcd01" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAVCAYAAAAJiM14AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVFhH7ZQxDoQgEEX3HN7Le9h4BotNPAC9hYW9hXsDK2/hKWZhBBxARRMkxFi8ZFeG4T+Z3c84AjyJVyh1XqHUebZQV34hzwf4kWdJ0rSQZy10G2uvENZkCgast2smqPS6wjz8sMdW2H6AQtXhZ7qfU0669pKQs46H00CLTFHPeo8d0NvDJ7RXI7kgtIStGvpsBpavAr+aufuNw/094glhU7cJSsgrx/3k+hF6+IkeyQkZ4yZIVujEuHhvKNTI7bwYQdg/Bfu7DEsDentgWCqtehzVrLhCvNCBBDBraHgJBiTrtfvGL/dorBvi4JiqGjIVhtAtiHAHtx6awEL8N2KEt34fEQgvpEdlIaaM4P6Ri8zDhAD+055vQOZK1jkAAAAASUVORK5CYII=" InformativeScreenshot="a68a1a0bb0fecd9588d12002a9dc3d9f.png" Reference="v5plHwawkk66e9rEw5XHcw/Sdkukf6UGEWb6VGf8riFXA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Hotel Booking Confirmation' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive" />
+                </uix:NClick.Target>
+              </uix:NClick>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>

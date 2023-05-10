@@ -1,0 +1,16 @@
+﻿{
+  "Id": "PsNX4tdJWUKxFV8MyZdGMw",
+  "Reference": "v5plHwawkk66e9rEw5XHcw/PsNX4tdJWUKxFV8MyZdGMw",
+  "ParentRef": "v5plHwawkk66e9rEw5XHcw/usqNE3zotk24VeQ1X5_2og",
+  "Name": "select",
+  "Type": "Element",
+  "TaxonomyType": "RadioButton",
+  "Created": "2023-05-10T12:50:22.4288204Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "Updated": "2023-05-10T12:51:26.7960089Z",
+  "UpdatedBy": [
+    "UiPath.Platform, Version=23.4.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

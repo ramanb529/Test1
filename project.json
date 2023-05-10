@@ -12,7 +12,7 @@
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "23.4.0.0",
-  "projectVersion": "1.0.2",
+  "projectVersion": "1.0.3",
   "runtimeOptions": {
     "autoDispose": false,
     "netFrameworkLazyLoading": false,
@@ -63,28 +63,28 @@
         "fileName": "Testcases\\TC107.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "ffcccd20-9171-466f-a288-cfa1f4ac5dc8",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Testcases\\TC106.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "084434e3-65da-4206-8d5f-ce1101e35b20",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Testcases\\TC105.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "bb7f0d15-ee03-4f9a-9c38-92f6fd6c0be6",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "Testcases\\TC104.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "c0940f17-fda9-410a-bc45-1041807d59dd",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
@@ -131,6 +131,19 @@
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "99db7ec0-d5a7-4377-9e92-1e96623522b9",
+        "testCaseType": "TestCase",
+        "fileName": "Login.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "3a885259-a58b-4d76-98ae-d42b299f8ab3",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "Desktop.xaml"
       }
     ],
     "modernBehavior": true

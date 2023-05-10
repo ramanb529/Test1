@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TC104" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="598,4851" sap2010:WorkflowViewState.IdRef="TC104_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TC104" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="598,5048" sap2010:WorkflowViewState.IdRef="TC104_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:uta="clr-namespace:UiPath.Testing.Activities;assembly=UiPath.Testing.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>System.Activities</x:String>
@@ -104,7 +104,7 @@
       <AssemblyReference>UiPath.Testing</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TC104" sap:VirtualizedContainerService.HintSize="608,4786" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TC104" sap:VirtualizedContainerService.HintSize="608,4983" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="LOCATION" />
       <Variable x:TypeArguments="x:String" Name="HOTEL" />
@@ -166,7 +166,7 @@
           </OutArgument>
         </ui:ReadCell.Result>
       </ui:ReadCell>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="True" DisplayName="TCassets101.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Testcases\\TCassets101.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login.xaml - Invoke Workflow File" sap:VirtualizedContainerService.HintSize="388,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Login.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <scg:Dictionary x:TypeArguments="x:String, Argument" />
         </ui:InvokeWorkflowFile.Arguments>
@@ -409,19 +409,19 @@
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>
-    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="546,1265" sap2010:WorkflowViewState.IdRef="Sequence_8">
+    <Sequence DisplayName="... Then" sap:VirtualizedContainerService.HintSize="546,1462" sap2010:WorkflowViewState.IdRef="Sequence_8">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Adactin.com - Select Hotel" sap:VirtualizedContainerService.HintSize="484,1154" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="a20dda85-b0a1-48b6-bef5-80a5832921df" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Adactin.com - Select Hotel" sap:VirtualizedContainerService.HintSize="484,1351" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="a20dda85-b0a1-48b6-bef5-80a5832921df" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,937" sap2010:WorkflowViewState.IdRef="Sequence_6">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1134" sap2010:WorkflowViewState.IdRef="Sequence_6">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="gettext" />
                 <Variable x:TypeArguments="x:String" Name="GetLocation" />
@@ -487,6 +487,17 @@
                   </InArgument>
                 </uta:VerifyExpressionWithOperator.SecondExpression>
               </uta:VerifyExpressionWithOperator>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="a20dda85-b0a1-48b6-bef5-80a5832921df" Version="V3">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="https://adactinhotelapp.com/SelectHotel.php" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="953, 284, 48, 17" DesignTimeScaleFactor="1" ElementType="Text" FriendlyName="'Logout'" FullSelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl aaname='Logout' tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl aaname='Logout' type='' tag='A' class='' check:innerText='Logout' /&gt;" Guid="48a1276b-2b7d-4c6b-9c73-9a702effa645" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADQAAAAVCAYAAAAJiM14AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEXSURBVFhH7ZQxDoQgEEX3HN7Le9h4BotNPAC9hYW9hXsDK2/hKWZhBBxARRMkxFi8ZFeG4T+Z3c84AjyJVyh1XqHUebZQV34hzwf4kWdJ0rSQZy10G2uvENZkCgast2smqPS6wjz8sMdW2H6AQtXhZ7qfU0669pKQs46H00CLTFHPeo8d0NvDJ7RXI7kgtIStGvpsBpavAr+aufuNw/094glhU7cJSsgrx/3k+hF6+IkeyQkZ4yZIVujEuHhvKNTI7bwYQdg/Bfu7DEsDentgWCqtehzVrLhCvNCBBDBraHgJBiTrtfvGL/dorBvi4JiqGjIVhtAtiHAHtx6awEL8N2KEt34fEQgvpEdlIaaM4P6Ri8zDhAD+055vQOZK1jkAAAAASUVORK5CYII=" InformativeScreenshot="d4970d9d62ad129de9bcb6eab8eabf02.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adactin.com - Select Hotel' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CvTextArgument="Change Password" CvType="Text" DesignTimeRectangle="813, 284, 124, 17" ElementType="Text" FriendlyName="'Change Password'" FullSelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl aaname='Change Password' tableRow='1' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl class='content' tag='TABLE' /&gt;&lt;webctrl aaname='Change Password' type='' tag='A' class='' check:innerText='Change Password' /&gt;" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAIAAAAAVCAYAAACOleY7AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALJSURBVGhD7ZZbTsMwEEW7NsRiqq6jbKPdBRJ7YC2gIiE+jWfGj5nxTeIGkErjj6M2jj2POzdpd6+vIQy2yzDAxhkG2DjDABtnGGDjrDDAVzg+voWHpy9wb3DLvDy9h93jR3hRa9gA50vY7d4cl3Di+3dggNn+7pcuA5z2JMZ7OD7bdT68/4zf78UAtkfp+75NsGwAIExLNYCIlnCBOZl5wmzcUox5GkHu54/wYOJEFnIdzuo8AvWZ8vBZkLMxfPMWUeZpzudcn+EQr3WsZih8VtcmesM8EaRj6b9DO2MAHqjb0FILqkLjxvQgZEi1+DI0fqvIWpNfDyWtecH8NTrT0GMAVVcTk6/t+dqvaGHyx3xZG+6xxM5aqlhUW+kn3Ve19OjIAB0arSLKAG0yjOzzT4RtDEHC1EZRMTKY2hyKac/ZmJnFWhoDpN59PQqKWXp2dRqAOTSmftobvx9VbFM7jGUNBnWMLGsn/KkBeI3cqZgt3AiL8zQCuviFRQO4/bAWt6fElCHkdfO0Zx3TPV+/Hir1wvcpF+eXsyVeWVfnI9qM2AAd2iVW/wT44NYASSATq8O5wABWXGSA6adtEs4zfU6Ma+/b/jJrjJB1oPs5B61R3/Sp8v7QALPaJa74ExiLYwE6DMCD8a/I3Lhc9xpg3sU2ZjezfWLxsAEyuNaMP8sD3Mf/Bd7scc1osvonoEc7wRogwsX6pPlVe5UBrIgSd6FwY4C0xxhJmtfnYL0xztQwmA4DmGHz/rpGddn4aii0V58FeklfNgdaQ7V4Tfi6MUDEaVlmuGQAJjesqA10GIBwMQ7na98Aal+JcwlHcM7uIaaGm+A8c3uS0TKxL2RwnbPq4c4SZqj1vH5A4BqTTFDiAX2QAfK9fC7uOYG92AA3DDflBR2s5rYNQE+FGbZ9iwx+zu0boLz6hDH83+Xf/QQMfpdhgE0TwjeXd4TcAdgcRgAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+              </uix:NClick>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
